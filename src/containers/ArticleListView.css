@@ -1,0 +1,20 @@
+.create-box
+{
+    /* background-color: blue; */
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.PostinputsTitle
+{
+    width: 95% !important;    
+}
+
+.PostinputsDec
+{
+    width: 95% !important;
+    height: 80px !important;    
+}

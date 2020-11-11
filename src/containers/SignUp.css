@@ -1,0 +1,52 @@
+
+@media only screen and (min-width: 750px) 
+{
+    
+    .regBox
+    {
+        padding: 16px;
+        background: ghostwhite;
+        width: 800px;
+        height: 500px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        border-radius: 10px;
+        position: relative;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50px, 50px);
+        
+        box-shadow: 13px 13px 20px #cbced1,
+                    -13px -13px 20px #ffffff;
+    }
+
+    .title
+    {
+        color: #333333;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        top: 0;
+        margin-top: 40px;
+        font-weight: bolder;
+        position: relative;
+    }
+
+    hr
+    {
+        width: 80%;
+        color: #333333;
+        margin-bottom: 0px;
+        /* position: absoulte; */
+    }
+
+    
+    .regForm
+    {
+        width: 80% !important;
+        text-align: center !important;
+    }
+    
+}
