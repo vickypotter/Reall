@@ -2,9 +2,9 @@
 # Recall
     This is FUll Stack Webapp 
 
-'Front-end  : ReactJS'
-'Back-end   : Django'
-'auth : Django-rest-framework'
+    Front-end  : ReactJS
+    Back-end   : Django
+    auth : Django-rest-framework
 
 
 # Error Note : 
