@@ -2,10 +2,11 @@
 # Recall
     This is FUll Stack Webapp 
 
+"
 Front-end  : ReactJS
 Back-end   : Django
 middleware : Django-rest-framework
-
+"
 
 # Error Note : 
 
@@ -15,6 +16,3 @@ port : 8000 - only 127.0.0.1:8000 la only localhost pota react uh run aagum so
 post 404 found : app name is alwaye very importent. make use with url 'articls/...'
 
 auth fail : password save aagalana again admin panle ponum id check pananum key pakkanum
-=======
-
->>>>>>> 6c00aa24254c66d5f2918fdadcc3079846ac6991
