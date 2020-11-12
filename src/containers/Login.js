@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import * as actions from '../store/actions/auth';
 import './Login.css';
+import logo from '../assets/recall_logo.png';
 
 const FormItem = Form.Item;
 const antIcon = <Icon type="loading" style={{ fontSize: 24 }} spin />;
@@ -31,7 +32,10 @@ class NormalLoginForm extends React.Component {
     const { getFieldDecorator } = this.props.form;
     return (
         <div className="login-box">
-            <h1 className="title">Recall</h1>
+            {/* <img src={logo} className="logo-login" alt="logo"/> */}
+            <h1 className="title">
+                <img src={logo} className="logo-login" alt="logo"/>Recall
+            </h1>
             <hr/>
             <p>Login</p>
             {errorMessage}

@@ -4,6 +4,7 @@ import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../store/actions/auth';
 import './Layout.css';
+import logo from '../assets/recall_logo.png';
 
 const { Header, Content, Footer } = Layout;
 
@@ -16,13 +17,20 @@ class CustomLayout extends React.Component {
                 <Menu
                     theme="dark"
                     mode="horizontal"
-                    defaultSelectedKeys={['2']}
+                    defaultSelectedKeys={['1']}
                     style={{ lineHeight: '64px' }}
                     id="MenuBar"
                 >
-
-                    
+                    <Menu.Item  key="4">
+                        <img className="logo" src={logo} alt="logo"/>
+                        {/* <Link to="">Recall</Link> */}
+                    </Menu.Item>
+                    <Menu.Item id="title" key="5">
+                        {/* <img className="logo" src={logo} alt="logo"/> */}
+                        
+                    </Menu.Item>
                     <Menu.Item id="title" key="0">
+                        {/* <img className="logo" src={logo} alt="logo"/> */}
                         <Link to="">Recall</Link>
                     </Menu.Item>
 
@@ -55,9 +63,9 @@ class CustomLayout extends React.Component {
                         {this.props.children}
                     </div>
                 </Content>
-                {/* <Footer style={{ textAlign: 'center' }}>
-                    {/* Recall Pvt ©2020 Created by Ram */}
-                {/* </Footer> */} 
+                <Footer style={{ textAlign: 'center' }}>
+                    Recall Pvt ©2020 Created by Ram
+                </Footer> 
             </Layout>
         );
     }

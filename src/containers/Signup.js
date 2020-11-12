@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import * as actions from '../store/actions/auth';
 import './SignUp.css';
+import logo from '../assets/recall_logo.png';
 
 const FormItem = Form.Item;
 
@@ -55,7 +56,9 @@ class RegistrationForm extends React.Component {
 
     return (
       <div className="regBox">
-        <h1 className="title">Recall</h1>
+        <h1 className="title">
+          <img src={logo} className="logo-Reg" alt="logo"/>Recall
+        </h1>
         <hr/>
         <p>Register</p>
         <Form className="regForm" onSubmit={this.handleSubmit}>        

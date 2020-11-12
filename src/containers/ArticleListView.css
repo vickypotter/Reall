@@ -3,8 +3,8 @@
     /* background-color: blue; */
     padding: 10px;
     text-align: center;
-    width: 40%;
-    border: 1px solid #333333;
+    width: 90%;
+    /* border: 1px solid #333333; */
     border-radius: 10px;
 }
 
@@ -17,4 +17,23 @@
 {
     width: 95% !important;
     height: 80px !important;    
+}
+
+.drawer
+{
+    text-align: center;
+}
+
+#postBtn
+{
+    width: 50% !important;
+    background-color: #85C1E9  !important;
+    outline: none !important;
+    border: none !important;
+    margin-top: 10px !important;
+}
+
+#postBtn:hover
+{
+    background-color: royalblue !important;
 }

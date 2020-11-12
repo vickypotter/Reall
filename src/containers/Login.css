@@ -8,7 +8,7 @@
         background: ghostwhite;
         width: 400px;
         height: 400px;
-        margin: 0;
+        margin-bottom: 75px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,4 +55,17 @@
         text-align: center !important;
     }
 
+   
 }
+
+.logo-login
+{
+    height: 45px;
+    width: 45px;
+    margin-top: -45px;
+    margin-right: 6px;
+    position: relative;
+    padding: 0;
+    margin-bottom: -42px;
+}
+

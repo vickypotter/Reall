@@ -1,5 +1,6 @@
 import React from "react";
 import { List, Avatar, Icon } from "antd";
+import './Article.css';
 
 const IconText = ({ type, text }) => (
   <span>
@@ -16,6 +17,7 @@ const IconText = ({ type, text }) => (
 const Articles = props => {
   return (
     <List
+      className="eachPost"
       itemLayout="vertical"
       size="large"
       pagination={{
@@ -34,18 +36,21 @@ const Articles = props => {
             <IconText type="message" text="0" />
           ]}
           extra={
-            <img
-              width={272}
-              alt="logo"
-              // src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
-            />
+            // <img
+            //   width={272}
+            //   alt="logo"
+            //   // src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
+            // />
+            ""
           }
         >
           <List.Item.Meta
-            avatar={<Avatar src={item.avatar} />}
+            avatar={<Avatar src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"/>}
             title={<a href={`/articles/${item.id}`}> {item.title} </a>}
             description={item.description}
+            
           />
+          {/* <Avatar>U</Avatar> */}
           {item.content}
         </List.Item>
       )}

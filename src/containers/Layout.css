@@ -2,6 +2,7 @@
 {
     background-color: rgb(229, 230, 231) !important;
     height: 100vh;
+    /* box-shadow: 0 0 black; */
 }
 
 
@@ -30,6 +31,7 @@
     color: white;
     font-weight: 900;
     background-color: royalblue !important;
+    margin-left: 50px;
 
 }
 
@@ -46,4 +48,14 @@
         /* align-items: center; */
         /* height: 100vh; */
     } 
+}
+
+.logo
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    padding: 0 !important;
+    z-index: 10;
+    margin-top: 12px;
 }
