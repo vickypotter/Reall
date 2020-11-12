@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Recall
     This is FUll Stack Webapp 
 
